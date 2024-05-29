@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #282c34;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color: #61dafb;
+}
+
+m {
+  background: #20232a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 300px;
+  position: fixed;
+  top: 20px;
+  z-index: 1000;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #61dafb;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+
+input {
+  padding: 10px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #282c34;
+  color: #61dafb;
+  font-family: 'Press Start 2P', cursive;
+}
+
+button {
+  padding: 20%;
+  background-color: #61dafb;
+  border: none;
+  color: #20232a;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+button:active {
+  background-color: #1e90ff;
+}
+
+.persos {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 200px;
+  width: 100%;
+}
+
+.persos ul {
+  padding: 0;
+  display: flex;
+}
+
+.persos li {
+  background: #20232a;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #61dafb;
+}
+
+.persos li p {
+  margin: 5px 0;
+}
